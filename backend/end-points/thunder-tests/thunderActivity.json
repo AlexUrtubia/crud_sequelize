@@ -1,0 +1,154 @@
+[
+    {
+        "_id": "5ede4d6a-4ef8-42b0-aba7-ea011feed39d",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3002/api/v1/usuarios",
+        "url": "http://localhost:3002/api/v1/usuarios",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-13T01:22:25.659Z",
+        "modified": "2023-07-13T02:09:32.530Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"nombre\": \"juanito\",\n  \"apellido\": \"El bandolero\",\n  \"email\": \"asdasd@email.com\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "240b3a89-c274-4330-88c2-1fef32800c1f",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3002/api/v1/usuarios",
+        "url": "http://localhost:3002/api/v1/usuarios",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-13T01:23:58.444Z",
+        "modified": "2023-07-13T02:02:12.496Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"nombre\": \"Victorita\",\n  \"apellido\": \"Ulloita\",\n  \"email\": \"victoriau@email.com\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "cb11640d-fa7a-4b36-a9c7-c65a1afc16d0",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3002/api/v1/usuarios/1",
+        "url": "http://localhost:3002/api/v1/usuarios/1",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-13T01:34:07.212Z",
+        "modified": "2023-07-13T02:11:09.875Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"nombre\": \"juanito\",\n  \"apellido\": \"El bandolero\",\n  \"email\": \"asdasd@email.com\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "2503a891-321c-4e47-869c-24f4e567f237",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3002/api/v1/usuarios/1",
+        "url": "http://localhost:3002/api/v1/usuarios/1",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-13T01:36:21.405Z",
+        "modified": "2023-07-13T01:36:21.405Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"nombre\": \"Victoria\",\n  \"apellido\": \"Ulloa\",\n  \"email\": \"victoriau@email.com\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "da4c045b-31e4-4433-9896-d8178ae4d13f",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3002/api/v1/usuarios/",
+        "url": "http://localhost:3002/api/v1/usuarios/",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-13T01:37:59.737Z",
+        "modified": "2023-07-13T01:37:59.737Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"nombre\": \"Victoria\",\n  \"apellido\": \"Ulloa\",\n  \"email\": \"victoriau@email.com\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "dcde25a1-6702-4352-98ea-5ce3f1d346a2",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3002/api/v1/usuarios/email/victoriau@email.com",
+        "url": "http://localhost:3002/api/v1/usuarios/email/victoriau@email.com",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-13T01:49:40.354Z",
+        "modified": "2023-07-13T01:49:40.354Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"nombre\": \"Victoria\",\n  \"apellido\": \"Ulloa\",\n  \"email\": \"victoriau@email.com\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "cdef0f34-9579-4327-b6b8-a0e28f6c503f",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3002/api/v1/usuarios/1",
+        "url": "http://localhost:3002/api/v1/usuarios/1",
+        "method": "DELETE",
+        "sortNum": 0,
+        "created": "2023-07-13T02:02:29.655Z",
+        "modified": "2023-07-13T02:02:29.655Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"nombre\": \"Victorita\",\n  \"apellido\": \"Ulloita\",\n  \"email\": \"victoriau@email.com\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "b0b24490-3037-4633-b48c-8e3acd221342",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3002/api/v1/usuarios/1",
+        "url": "http://localhost:3002/api/v1/usuarios/1",
+        "method": "PUT",
+        "sortNum": 0,
+        "created": "2023-07-13T02:08:32.254Z",
+        "modified": "2023-07-13T02:08:32.254Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"nombre\": \"juanito\",\n  \"apellido\": \"El bandolero\",\n  \"email\": \"asdasd@email.com\"\n}",
+            "form": []
+        },
+        "tests": []
+    }
+]
